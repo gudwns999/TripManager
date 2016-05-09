@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_vertical|center_horizontal"
+    android:layout_marginLeft="50px"    android:layout_marginRight="50px">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optioin01"
+            android:text="국민대학교"
+            android:textSize="45px"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optioin02"
+            android:text="광화문"
+            android:layout_marginTop="20px"
+            android:textSize="45px"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optioin03"
+            android:text="하늘공원"
+            android:layout_marginTop="20px"
+            android:textSize="45px"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optioin04"
+            android:text="성수대교"
+            android:layout_marginTop="20px"
+            android:textSize="45px"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optioin05"
+            android:text="창덕궁"
+            android:layout_marginTop="20px"
+            android:textSize="45px"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optioin06"
+            android:text="석촌호수"
+            android:layout_marginTop="20px"
+            android:textSize="45px"/>
+
+    <Button
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_Btn"
+        android:text="선택하기"/>
+    <Button
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset_Btn"
+        android:text="선택 초기화"/>
+</LinearLayout>

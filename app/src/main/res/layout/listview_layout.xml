@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no"
+            android:id="@+id/no_text"/>
+
+        <TextView
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="명소 이름"
+            android:id="@+id/location_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+</LinearLayout>

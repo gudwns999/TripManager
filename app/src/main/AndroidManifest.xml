@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gudwns999.com.tripmanager">
+    <!--인터넷 허용-->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"   >
+
+        <!--Splash-->
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--Login-->
+        <activity android:name=".Login"></activity>
+        <!--Regist-->
+        <activity android:name=".Regist"></activity>
+        <!--Main-->
+        <activity android:name=".Main"></activity>
+        <!--Radio-->
+        <activity android:name=".Radio"></activity>
+        <!--List-->
+        <activity android:name=".List"></activity>
+        <!--MoreInfo-->
+        <activity android:name=".MoreInfo"></activity>
+    </application>
+
+</manifest>
